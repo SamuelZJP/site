@@ -11,7 +11,7 @@ export const profile = {
   links: [
     { label: 'GitHub', href: 'https://github.com/SamuelZJP' },
   ],
-  resumePdf: '', // 放入 public/ 后填写路径，例如 '/resume.pdf'
+  resumePdf: '/resume.pdf', // 公开版简历（不含联系方式与照片），由 JobHunting/resume/build 生成
   education: {
     school: '上海财经大学浙江学院',
     major: '软件工程 · 本科',
@@ -200,7 +200,7 @@ export const projects = [
     ],
     actions: {
       links: [{ label: '源码与设计文档', href: 'https://github.com/SamuelZJP/dsh-anima' }],
-      note: '面试时可现场演示 QQ 实机，并备有录屏。',
+      note: '面试时可现场演示 QQ 实机',
     },
     shotsNote: '管理面板截图，来自开发用的演示平台（脚本角色、30 倍速时钟），不是真实聊天。',
     shots: [
