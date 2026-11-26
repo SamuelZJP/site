@@ -1,0 +1,19 @@
+{
+  "name": "showcase-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/attach-demos.mjs",
+    "preview": "vite preview --port 4175 --strictPort"
+  },
+  "dependencies": {
+    "vue": "^3.5.46",
+    "vue-router": "^4.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.11",
+    "vite": "^7.3.8"
+  }
+}
